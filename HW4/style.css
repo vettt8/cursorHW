@@ -1,0 +1,117 @@
+.download {
+    background-color: rgba(237, 76, 92, 1);
+    display: flex;
+    width: 100%;
+}
+
+body{
+display: flex;
+flex-direction: column;
+width: 1440px;
+
+}
+
+.download-text {
+    color: #fff;
+    padding: 122px 81px 111px 165px;
+}
+
+.main-text {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+
+.secondary-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.download-photo {
+    padding: 94px 216px 95px 0;
+}
+
+.download-icons {
+    margin-top: 40px;
+}
+
+.download-icons img {
+    margin-right: 25px;
+}
+
+.middle-block {
+    display: flex;
+
+}
+
+.main-contant {
+    display: flex;
+    margin: 117px 165px 45px 176px;
+}
+
+.main-container {
+    width: 434px;
+    size: 14px;
+    height: 64px;
+}
+.secondary-text-info{
+    width: 434px;
+}
+.contact-form {
+    width: 540px;
+    height: 305px;
+    padding-top: 117px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5); 
+}
+#fname, #lname {
+    width: 255px;
+    height: 60px;
+    box-sizing: border-box;
+}
+#fname {
+    margin-right: 25px;
+}
+#fname, #lname, #phone, #select {
+    border-radius: 6px;
+    border: 1px solid #333333;
+    padding-left: 31px;
+    opacity: 50%;
+}
+#phone, #select {
+    width: 540px;
+    height: 60px;
+}
+#phone {
+    box-sizing: border-box;
+    margin: 24px 0;
+}
+#submit {
+    background-color: #ED4C5C;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;  
+    font-weight: 400;
+    padding: 17px 34px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+}
+.footer-1{
+    width: 259px;
+    height: 264px;
+    margin-top: 85px;
+    margin-left: 161px;
+}
