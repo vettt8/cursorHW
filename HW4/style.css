@@ -4,10 +4,10 @@
     width: 100%;
 }
 
-body{
-display: flex;
-flex-direction: column;
-width: 1440px;
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
 
 }
 
@@ -55,9 +55,11 @@ width: 1440px;
     size: 14px;
     height: 64px;
 }
-.secondary-text-info{
+
+.secondary-text-info {
     width: 434px;
 }
+
 .contact-form {
     width: 540px;
     height: 305px;
@@ -67,30 +69,42 @@ width: 1440px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: rgba(19, 39, 67, 0.5); 
+    color: rgba(19, 39, 67, 0.5);
+    padding-bottom: 123px;
 }
-#fname, #lname {
+
+#fname,
+#lname {
     width: 255px;
     height: 60px;
     box-sizing: border-box;
 }
+
 #fname {
     margin-right: 25px;
 }
-#fname, #lname, #phone, #select {
+
+#fname,
+#lname,
+#phone,
+#select {
     border-radius: 6px;
     border: 1px solid #333333;
     padding-left: 31px;
     opacity: 50%;
 }
-#phone, #select {
+
+#phone,
+#select {
     width: 540px;
     height: 60px;
 }
+
 #phone {
     box-sizing: border-box;
     margin: 24px 0;
 }
+
 #submit {
     background-color: #ED4C5C;
     border-radius: 6px;
@@ -98,20 +112,56 @@ width: 1440px;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
-    line-height: 17px;  
+    line-height: 17px;
     font-weight: 400;
     padding: 17px 34px;
     margin-top: 27px;
     cursor: pointer;
 }
-.footer{
+
+.footer {
     background-color: #FAFAFA;
     display: flex;
-    flex-direction: column;
+    width: 100%;
 }
-.footer-1{
+
+.footer-1 {
     width: 259px;
     height: 264px;
     margin-top: 85px;
     margin-left: 161px;
+    width: 25%;
+
+}
+
+.information {
+    margin: 0 30px;
+    width: 25%;
+    size: 18px;
+    padding-top: 85px;
+}
+
+.info-text {
+    list-style-type: none;
+    padding: 0;
+    line-height: 160%;
+}
+
+.information2 {
+list-style-type:none;
+padding: 0;
+}
+.info-text2 img{
+ padding-left: 16.67px;
+}
+.info-image{
+    height: 31px;
+width: 216px;
+left: 1028px;
+top: 1185px;
+border-radius: 0px;
+
+}
+.last-text{
+    padding-left: 161px;
 }
